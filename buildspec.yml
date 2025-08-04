@@ -42,7 +42,7 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-    - brain-tasks-app/dist/**/*
+    - dist/**/*
   name: brain-tasks-artifacts
   discard-paths: no
 
