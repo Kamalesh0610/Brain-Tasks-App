@@ -11,8 +11,8 @@ phases:
       nodejs: 18
     commands:
       - echo "Installing necessary tools..."
-      - apt-get update -y
-      - apt-get install -y jq awscli docker.io
+      - yum update -y
+      - yum install -y jq awscli docker.io
       - systemctl start docker
       - docker --version
       - aws --version
