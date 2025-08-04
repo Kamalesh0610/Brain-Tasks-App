@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::EKS::Service
+      Properties:
+        ClusterName: "brain-tasks-cluster"
+        ServiceName: "brain-tasks-service"
+        ContainerName: "brain-tasks"
+        ContainerPort: 80
