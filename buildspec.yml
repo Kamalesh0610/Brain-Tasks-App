@@ -1,0 +1,20 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - $(aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 346367214911.dkr.ecr.ap-south-1.amazonaws.com)
+  build:
+    commands:
+      - echo Build started on `date`
+      - docker build -t brain-tasks-app .
+      - docker tag brain-tasks-app:latest 346367214911.dkr.ecr.ap-south-1.amazonaws.com/brain-tasks-app:latest
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - docker push 346367214911.dkr.ecr.ap-south-1.amazonaws.com/brain-tasks-app:latest
+artifacts:
+  files:
+    - deployment.yaml
+    - service.yaml
+
