@@ -134,6 +134,9 @@ docker run -p 3000:80 brain-tasks-app
 
 ```
 arn:aws:elasticloadbalancing:<your-region>:<your-account-id>:loadbalancer/app/brain-tasks-service/xxxxxxxxxxxxxxxx
+
+arn:aws:elasticloadbalancing:ap-south-1:346367214911:loadbalancer/app/aa18f9554c21a4fefb0206db5c7c4d96/50dc6a7f2c0c9188
+
 ```
 
 ---
@@ -170,7 +173,7 @@ arn:aws:elasticloadbalancing:<your-region>:<your-account-id>:loadbalancer/app/br
 
 ```
 Brain-Tasks-App/
-├── dist                # React app folder
+├── dist                # React build artifacts
 ├── appspec.yml         # CodeDeploy spec for EKS
 ├── buildspec.yml       # CodeBuild build instructions
 ├── deployment.yaml     # Kubernetes deployment manifest
@@ -187,7 +190,7 @@ Brain-Tasks-App/
 
 ```sh
 git add .
-git commit -m "Initial commit"
+git commit -m "<your commit message"
 git push origin main
 ```
 
