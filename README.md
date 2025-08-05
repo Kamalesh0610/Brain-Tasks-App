@@ -152,14 +152,15 @@ arn:aws:elasticloadbalancing:ap-south-1:346367214911:loadbalancer/app/aa18f9554c
 ## Monitoring
 
 - **CloudWatch Logs**: Monitors build, deploy, and application logs.
-- **kubectl logs**: View pod logs for troubleshooting.
 
 ---
 
 ## Screenshots
 
 > Add screenshots of:
-> - Application UI
+> - Run Locally
+![alt text](01.png)
+![alt text](02.png)
 > - AWS ECR repository
 > - EKS cluster and workloads
 > - CodeBuild and CodePipeline
@@ -193,7 +194,3 @@ git push origin main
 ```
 
 ---
-
-## License
-
-MIT
