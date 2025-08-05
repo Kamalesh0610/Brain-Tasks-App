@@ -60,8 +60,6 @@ cd Brain-Tasks-App
 ### 2. Run Locally (Port 3000)
 
 ```sh
-npm install
-npm run build
 npm install -g serve
 serve -s build -l 3000
 # Application runs on http://localhost:3000
