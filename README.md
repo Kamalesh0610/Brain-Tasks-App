@@ -156,14 +156,6 @@ arn:aws:elasticloadbalancing:ap-south-1:346367214911:loadbalancer/app/aa18f9554c
 
 ---
 
-## Screenshots
-
-> Add screenshots of:
-> - Application UI
-> - AWS ECR repository
-> - EKS cluster and workloads
-> - CodeBuild and CodePipeline
-> - LoadBalancer in AWS Console
 
 ---
 
