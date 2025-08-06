@@ -212,7 +212,7 @@ arn:aws:elasticloadbalancing:ap-south-1:346367214911:loadbalancer/app/aa18f9554c
 
 
 
-> ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/13.png)
+>   ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/13.png)
 
 
 
