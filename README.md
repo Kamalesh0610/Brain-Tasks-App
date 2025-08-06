@@ -158,26 +158,47 @@ arn:aws:elasticloadbalancing:ap-south-1:346367214911:loadbalancer/app/aa18f9554c
  
 > - Running the Production Build via serve
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/01.png)
+
+
 > - Local Server Preview (Port 3000)
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/02.png)
+
+
 > - Containerizing with Docker + NGINX
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/03.png)
+
+
 > - Private Repositry
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/05.png)
+
+
 > - Pushing Docker Image to AWS ECR
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/06.png)
+
+
 > - Private Docker Image Repository (AWS ECR)
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/07.png)
+
+
 > - Amazon EKS Cluster Overview
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/08.png)
+
+
 > - AWS CodeBuild Integration
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/09.png)
+
+
 > - CI/CD Pipeline Setup using AWS CodePipeline
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/10.png)
+
+
 > - Final output: Brain Tasks – React Task Manager App
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/11.png)
+
+
 > - CI/CD Monitoring with AWS CloudWatch
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/12.png)
+
 
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/13.png)
 
