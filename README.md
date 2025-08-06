@@ -21,7 +21,6 @@ This project demonstrates deploying a React application to a production-ready st
 - [Screenshots](#screenshots)
 - [Repository Structure](#repository-structure)
 - [Version Control](#version-control)
-- [License](#license)
 
 ---
 
