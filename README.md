@@ -154,7 +154,8 @@ arn:aws:elasticloadbalancing:ap-south-1:346367214911:loadbalancer/app/aa18f9554c
 
 ---
 
-> Add screenshots of:
+> Screenshots:
+ 
 > - Running the Production Build via serve
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/01.png)
 > - Local Server Preview (Port 3000)
@@ -177,6 +178,7 @@ arn:aws:elasticloadbalancing:ap-south-1:346367214911:loadbalancer/app/aa18f9554c
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/11.png)
 > - CI/CD Monitoring with AWS CloudWatch
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/12.png)
+
 ![image alt](https://github.com/Kamalesh0610/Brain-Tasks-App/blob/main/Screenshot/13.png)
 
 ---
